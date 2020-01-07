@@ -1,0 +1,61 @@
+https://www.adda52.com/poker/poker-rules/cash-game-rules/tie-breaker-rules
+
+straight flush ->
+    rank: 9
+    tiebreak1: (6, 14)
+        Highest card
+four of a kind ->
+    rank: 8
+    tiebreak1: (2, 14)
+        Rank of the 4
+    tiebreak2: (2, 14)
+        Kicker
+full house ->
+    rank: 7
+    tiebreak1: (2, 14)
+        three of a kind strength
+    tiebreak2: (2, 14)
+        two of a kind strength
+flush ->
+    rank: 6
+    tiebreak1: (2, 14)
+        first highest
+    ...
+    tiebreak5: (2, 14)
+        fifth highest card
+straight ->
+    rank: 5
+    tiebreak1: (2, 14)
+        highest card
+three of a kind:
+    rank: 4
+    tiebreak1: (2, 14)
+        highest card of 3
+    tiebreak2: (2, 14)
+        highest unpaired card
+    tiebreak3: (2, 14)
+        last unpaired card
+two pair:
+    rank: 3
+    tiebreak1: (2, 14)
+        highest pair card
+    tiebreak2: (2, 14)
+        next pair card
+    tiebreak3: (2, 14)
+        remaining card
+pair:
+    rank: 2
+    tiebreak1: (2, 14)
+        pair rank
+    tiebreak2: (2,14)
+        2nd highest
+    ...
+    tiebreak5: (2,14)
+        2nd highest
+high card:
+    rank: 1
+    tiebreak1: (2, 14)
+        first highest
+    ...
+    tiebreak5: (2, 14)
+        fifth highest card
